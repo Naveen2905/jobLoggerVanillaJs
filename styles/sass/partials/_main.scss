@@ -1,0 +1,81 @@
+body {
+    position: relative;
+    main {
+        height: 85vh;
+        .mainSection {
+            text-align: right;
+            margin-top: 2%;
+            .logButton {
+                width: 20%;
+                padding: 1.2rem;
+                font-size: calc(1.2rem + 0.5vw);
+                font-family: "Ubuntu", sans-serif;
+                background: transparent;
+                border: 1px solid #007bba;
+                border-radius: 100px;
+                color: #23233b;
+                cursor: pointer;
+                transition: all 0.3s ease-in-out;
+                &:hover,
+                &:focus {
+                    border: 1px solid #bce3fa;
+                    box-shadow: 2px 2px 5px #bce3fa;
+                }
+            }
+        }
+
+        .formSection {
+            position: absolute;
+            top: 0;
+            left: -100%;
+            background: #00afb9;
+            height: 100%;
+            transition: all 0.5s ease-in-out;
+        }
+        .jobDetailForm {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            padding: 2%;
+            height: 100%;
+            p {
+                font-size: calc(1.2rem + 0.5vw);
+                font-family: "Ubuntu", sans-serif;
+                text-transform: capitalize;
+                text-align: center;
+            }
+            input {
+                display: block;
+                padding: 2% 5%;
+                border: none;
+                background: #ebebeb;
+                width: 100%;
+                border-radius: 100px;
+                cursor: text;
+                font-size: calc(1.2rem + 0.5vw);
+                font-family: "Ubuntu", sans-serif;
+                text-transform: capitalize;
+            }
+            input[type="date"] {
+                cursor: pointer;                
+            }
+            .submit{
+                padding: 2% 5%;
+                font-size: calc(1.2rem + 0.5vw);
+                font-family: "Ubuntu", sans-serif;
+                background: #ebebeb;
+                border: 1px solid #007bba;
+                border-radius: 100px;
+                color: #23233b;
+                cursor: pointer;
+                transition: all 0.3s ease-in-out;
+                &:hover,
+                &:focus {
+                    border: 1px solid #bce3fa;
+                    box-shadow: 2px 2px 5px #bce3fa;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Jobs logger</title>
+
+</head>
+
+<body>
+    <!-- header starts -->
+    <header>
+        <section class="wrapper">
+            <h1>
+                jobs logger
+            </h1>
+        </section>
+    </header>
+    <!-- header ends -->
+
+    <!-- main starts  -->
+    <main>
+        <section class="wrapper mainSection">
+            <button class="logButton">
+                log it!
+            </button>
+        </section>
+        <section class="formSection">
+            <form class="jobDetailForm">
+
+                <p class="jobDetails">job details</p>
+                <input type="text" class="cName" placeholder="Company Name">
+                <input type="text" class="jobTitle" placeholder="Job Title">
+                <input type="date" class="date" placeholder="Date applied" value="input text">
+                <input type="text" class="source" placeholder="Job Source eg. Indeed, LinkedIn">
+
+                <p>job poster details</p>
+                <input type="text" class="fullName" placeholder="Full Name">
+                <input type="email" class="email" placeholder="Email">
+                <input type="url" class="linkedin" placeholder="LinkedIn Url">
+                <input type="text" class="title" placeholder="Title">
+
+                <button class="submit" onclick="getData()">Submit</button>
+            </form>
+        </section>
+    </main>
+    <!-- main ends  -->
+
+
+    <script src="./scripts/script.js"></script>
+</body>
+
+</html>
