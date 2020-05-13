@@ -3,8 +3,8 @@ body {
     main {
         height: 85vh;
         .mainSection {
-            text-align: right;
             margin-top: 2%;
+            text-align: right;
             .logButton {
                 width: 20%;
                 padding: 1.2rem;
@@ -20,6 +20,13 @@ body {
                 &:focus {
                     border: 1px solid #bce3fa;
                     box-shadow: 2px 2px 5px #bce3fa;
+                }
+            }
+            .jobAppliedResult{
+                text-align: center;
+                li{
+                    font-family: "Ubuntu", sans-serif;
+                    font-size: calc(1.2rem + 0.5vw);
                 }
             }
         }

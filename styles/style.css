@@ -298,8 +298,8 @@ body main {
 }
 
 body main .mainSection {
-  text-align: right;
   margin-top: 2%;
+  text-align: right;
 }
 
 body main .mainSection .logButton {
@@ -320,6 +320,15 @@ body main .mainSection .logButton:hover, body main .mainSection .logButton:focus
   border: 1px solid #bce3fa;
   -webkit-box-shadow: 2px 2px 5px #bce3fa;
           box-shadow: 2px 2px 5px #bce3fa;
+}
+
+body main .mainSection .jobAppliedResult {
+  text-align: center;
+}
+
+body main .mainSection .jobAppliedResult li {
+  font-family: "Ubuntu", sans-serif;
+  font-size: calc(1.2rem + 0.5vw);
 }
 
 body main .formSection {
